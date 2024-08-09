@@ -1,0 +1,116 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#main{
+    width: 100%;
+    display: flex;
+    padding-top: 40px;
+    padding-left: 130px;
+    margin-bottom:20px;
+}
+.left{
+    background-color: lightgrey;
+    color: black;
+    float:left;
+    align-items: center;
+    width: 25%;
+    height: 90%;
+    padding: 20px;
+    margin-top: 2px;
+    margin-left: 155px;
+    position: relative;
+}
+.right{
+    background-color: rgb(45, 2, 51);
+    color: white;
+    float:right;
+    align-items: center;
+    width:40%;
+    height: 90%;
+    padding: 20px;
+    margin-top: 2px;
+    margin-right: 35px;
+    position: relative;
+}
+.heading1{
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: end;
+    margin-right:-17px;
+}
+.heading2{
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: start;
+    margin-left:-17px;
+}
+#main img{
+    height: 280px;
+    width: 300px;
+    position: absolute;
+    top: 155px;
+    right: 650px;
+}
+.right-img{
+    margin-top: 200px;
+    margin-right: -600px;
+    border-radius: 50%;
+    height:120px !important;
+    width: 130px !important;
+}
+.right-pic{
+    margin-top: -140px;
+    margin-right: -480px;
+    border-radius: 50%;
+    height:200px !important;
+    width: 200px !important;
+}
+.pic{
+    margin-top: 2px;
+    margin-right: -650px;
+    border-radius: 50%;
+    height:180px !important;
+    width: 170px !important;
+}
+.heading3{
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 400px;
+}
+.btn{
+    border-radius: 100px;
+    background-color:rgb(45, 2, 51) ;
+    color: white;
+    padding: 5px 5px;
+    margin-top: 370px;
+    margin-left: 120px;
+    font-size: 1rem;
+    transition: background-color 0.4s ease;
+}
+.btn:hover{
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+.pic2{
+    height:88% !important;
+    width: 78px !important;
+    margin-right: 58px;
+    margin-top: -120px;
+}
+.primary{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:black;
+    margin-left: 120px;
+    margin-top:10px;
+}
+.links{
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+}

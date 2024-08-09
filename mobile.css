@@ -1,0 +1,105 @@
+
+@media only screen and (max-width: 600px) {
+    #main {
+        flex-direction: row;
+        padding: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left{
+        width: 45%;
+        height:100%;
+        margin-right: 0px;
+        padding: 5px;
+        position: relative;
+        right: 120px;
+
+    }
+    .right{
+        width: 55%;
+        max-height:100%;
+        margin-right: 0px;
+        padding: 5px;
+        position: relative;
+        left: -120px;
+    }
+
+    .heading1{
+        font-size: 2rem;
+        text-align: center;
+        margin-left: 108px;
+    }
+    
+    .heading2{
+        font-size: 2rem;
+        text-align: center;
+        margin-right: 155px;
+    }
+    #main img{
+        height: 110px;
+        width: 120px;
+        position: absolute;
+        top: 70px;
+        left: 166px;
+    }
+
+    .btn {
+        margin-top: 150px;
+        margin-left: 78px;
+        display: flex;
+        width: 60%;
+        padding: 5px 5px;
+        font-size: 0.8rem;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .primary, .links {
+        text-align: center;
+        margin-left: 55px;
+        font-size: 1rem;
+    }
+
+    .pic2{
+        height:80% !important;
+        width: 78px !important;
+        margin-left: -362px;
+        margin-top: -69px;
+    }
+    .right-img{
+        margin-top: -50px;
+        margin-right: -600px;
+        border-radius: 50%;
+        height:60px !important;
+        width: 70px !important;
+    }
+    .right-pic{
+        margin-top: -68px;
+        margin-left: -100px;
+        border-radius: 50%;
+        height:95px !important;
+        width: 95px !important;
+    }
+    .pic{
+        margin-top: 15px;
+        margin-left: -17.5px;
+        border-radius: 50%;
+        height:90px !important;
+        width: 90px !important;
+    }
+    .heading3{
+        font-size: 1rem;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 121px;
+        margin-bottom: 20px;
+    }
+    /* Additional styles to improve usability on small screens */
+    body {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+}
